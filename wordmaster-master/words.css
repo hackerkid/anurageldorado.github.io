@@ -1,0 +1,66 @@
+body {
+    background: #8ec1da url("images/2.jpg") no-repeat fixed center center / cover ;
+}
+
+.hide {
+    display : none;
+}
+.console {
+    border: 1px solid black;
+    height: 30em;
+    overflow-y: scroll;
+    background-color: #2C3E50;
+    color: white;
+    font-size: 13px;
+    text-align: left;
+    border-radius: 4px;
+    padding: 10px 20px 20px 20px;
+    box-shadow: 0 0 6px #000;
+}
+.game {
+    background-color: rgba(189, 195, 199,0.8);
+    width: 33%;
+    margin: 0 5em;
+    padding: 15px;
+    min-width: 19em;
+    margin-bottom: 2em;
+    border-radius: 4px;
+    min-height: 20em;
+    box-shadow: 0 0 6px;
+}
+.text{
+    padding: 20px;
+    text-align: left;
+    color: #22313F;
+    font-size: 16px;
+    padding-top: 0;
+}
+.fa.fa-angle-double-right {
+    color: #000;
+}
+.right{
+    color:#2ECC71;
+    font-size:18px;
+}
+.error{
+    color:#F22613;
+    font-size:18px;
+}
+.refresh {
+    color:#F2F613;
+    font-size:18px;
+}
+.countdown-timer {
+    margin: 18px;
+    font-size: 18px;
+    margin-top: 0px;
+}
+.string {
+    padding: 20px;
+    letter-spacing: 12px;
+    font-size: 32px;
+}
+#points {
+    padding: 18px;
+    font-size: 18px;
+}
