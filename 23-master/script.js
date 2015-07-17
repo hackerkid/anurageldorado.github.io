@@ -1,4 +1,4 @@
-var WINNUM = 23;
+var WINNUM =  Math.floor((Math.random() * 30) + 15);  
 var WAIT = false;
 var STARTED = false;
 
@@ -68,14 +68,14 @@ function addDisplay(d) {
 			}
 		} else {
 			document.querySelector('#win-' + player).className = "win ";
-			Edisplay.innerHTML = 23;
+			Edisplay.innerHTML = WINNUM;
 			reset();
 			return ;
 		}
 	}
 
 	if (STARTED) {
-		if (d + displayNum > 23) {
+		if (d + displayNum > WINNUM) {
 			alert('Wrong Move.')
 			return ;
 		}
